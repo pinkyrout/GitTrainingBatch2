@@ -6,6 +6,9 @@
 1. I am Mayur Deshmukh
 2. I am currently pursing BE computer engineering from K.K Wagh of college of Engineering,Nashik
 3. Also I am an Intern at Josh Software Pvt Ltd
+4. I am currently working on git assignments
+
+
 
 1. I am Latikesh Nikam
 2. I pursuing Btech from Walchand College of Engineering, Sangli
@@ -22,6 +25,7 @@ vii. I also Love Cooking.
 
 
 
+
 1. I am Vishwajeetsingh Desurkar
 2. I have started  as Graduate trainee at Josh software Pvt. Ltd
 
@@ -35,11 +39,5 @@ vii. I also Love Cooking.
 
 
 
-
-
-
-1. I am Anurag Sarang Ganjiwale
-2. I am currently pursing B.Tech Computer Science and Engineering at Walchand College of Engineering Sangli
-3. I am from Pusad Dist. Yavatmal
-
-
+1. I am Vishwajeetsingh Desurkar
+2. I have started  as Graduate trainee at Josh software Pvt LMD
