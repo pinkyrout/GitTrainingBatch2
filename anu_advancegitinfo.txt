@@ -1,0 +1,13 @@
+  - git reset
+    Use this to return the entire working tree to the last committed state. This will discard commits in a private branch or throw away uncommitted changes!
+  - gir revert
+    Creates a new commit from a specified commit by inverting it.
+  - git cherry-pick
+    Cherry picking is the act of picking a commit from a branch and applying it to another.
+  - git rebase
+    Rebasing is the process of moving or combining a sequence of commits to a new base commit.
+  - difference between merge and rebase
+    We can use either rebase or merge to combine two branches. Peoples are tend to use rebase over merge due to following facts.
+    There is no additional commit added to the merged branches
+    Rebase commit history is cleaner than merge history since rebase history does not have complex branches
+    Due to the branch complexity in merged git tree, some code changes are invisible. But rebase changes come from a specific and entitled commit.
