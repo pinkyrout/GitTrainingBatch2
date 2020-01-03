@@ -1,0 +1,35 @@
+Basic Git Commands:
+1) git init:
+	To convert directory into repository i.e. to give support of all git operations on the files in the directory
+
+2) git clone:
+	To get the repository from url
+
+3) git add:
+	To add files to staging area i.e. get ready to commit
+
+4) git commit:
+	This command commits the changes done in the files added bu git add command
+
+5) git diff:
+	This command give us the changes done since last commit
+
+6) git log:
+	This show us all the actions perform onto the repo. In the repo we get all the action of parent as well but not actions of its child branches until it's not merged
+
+
+Basic Vim Commands:
+    k - Move cursor up
+    j - Move cursor down
+    h - Move cursor left
+    l - Move cursor right
+    i - Insert at cursor (goes into insert mode)
+    a - Write after cursor (goes into insert mode)
+    A - Write at the end of line (goes into insert mode)
+    ESC - Terminate insert mode
+    u - Undo last change
+   :w - Save the file but keep it open
+   :q - Quit without saving
+   :wq - Save the file and quit
+
+
