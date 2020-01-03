@@ -5,10 +5,9 @@
 2. I am currently pursing BE computer engineering from K.K Wagh of college of Engineering,Nashik
 3. Also I am an Intern at Josh Software Pvt Ltd..
 
-
 1. I am Mayur Deshmukh
 2. I am currently pursing BE computer engineering from K.K Wagh of college of Engineering,Nashik
-3. Also I am an Intern at Josh Software Pvt Ltd.
+3. Also I am an Intern at Josh Software Pvt Ltd
 4. I am currently working on git assignments
 
 1. I am Latikesh Nikam
@@ -32,7 +31,6 @@ i. I am Sagar Sonwane.
 ii. I work as an Intern at Josh Softwares Pvt. Ltd.
 iii. I am from K.K Wagh Institute of Engineering Education and Research,Nashik.
 
-
 1. I am Abhishek Ravindra Sapate.
 2. I am pursuing my B.Tech Degree from Walchand College of Engineering, Sangli.
 3. I am currently working as an Intern at Josh Softwares Pvt. Ltd.
@@ -42,6 +40,11 @@ v. My Wish is to do a World Tour With My parents.
 vi. I love watching and Playing Cricket.
 vii. I also Love Cooking.
 
+i. I am Sagar Sonwane
+ii. I work as an intern at Josh Softwares Pvt. Ltd.
+
+ Deepali Pawade from pccoe
+ Working as Intern in Josh 
 
 3. I am Vishwajeetsingh Desurkar
 4. I have started  as Graduate trainee at Josh software Pvt. Ltd
@@ -53,3 +56,14 @@ vii. I also Love Cooking.
 1. I am Anurag Sarang Ganjiwale
 2. I am currently pursing B.Tech Computer Science and Engineering at Walchand College of Engineering Sangli
 3. I am from Pusad Dist. Yavatmal
+
+1. I am Vishwajeetsingh Desurkar
+2. I have started  as Graduate trainee at Josh software Pvt. Ltd
+
+1. I am Anurag Sarang Ganjiwale
+2. I am currently pursing B.Tech Computer Science and Engineering at Walchand College of Engineering Sangli
+3. I am from Pusad Dist. Yavatmal
+
+1. I am Niharika Bhoi
+2. I am studying Electronics Engineering in Walchand College of Engineering Sangli 
+3. My hometown is Kolhapur
