@@ -1,63 +1,82 @@
-Getting & Creating Projects
-
-git init	Initialize a local Git repository
-git clone ssh://git@github.com/[username]/[repository-name].git        Create a local copy of a remote repository
 
 
+git-reset - Reset current HEAD to the specified state
 
-Basic Snapshotting
-
-git status	Check status
-git add [file-name.txt]	     Add a file to the staging area
-git add -A	Add all new and changed files to the staging area
-git commit -m "[commit message]" 		Commit changes
-git rm -r [file-name.txt]	Remove a file (or folder)
+The git reset command is a complex and versatile tool for undoing changes. It has three primary forms of invocation. These forms correspond to command line arguments --soft, --mixed, --hard. The three arguments each correspond to Git's three internal state management mechanism's, The Commit Tree (HEAD), The Staging Index, and The Working Directory.
 
 
+git-revert - Revert some existing commits
 
-Branching & Merging
+The git revert command can be considered an 'undo' type command, however, it is not a traditional undo operation. Instead of removing the commit from the project history, it figures out how to invert the changes introduced by the commit and appends a new commit with the resulting inverse content. This prevents Git from losing history, which is important for the integrity of your revision history and for reliable collaboration.
 
-
-
-
-git branch 	List branches (the asterisk denotes the current branch)
-git branch -a 	List all branches (local and remote)
-git branch [branch name] 	Create a new branch
-git branch -d [branch name] 	Delete a branch
-git push origin --delete [branch name] 	Delete a remote branch
-git checkout -b [branch name] 	Create a new branch and switch to it
-git checkout -b [branch name] origin/[branch name] 	Clone a remote branch and switch to it
-git branch -m [old branch name] [new branch name] 	Rename a local branch
-git checkout [branch name] 	Switch to a branch
-git checkout - 	Switch to the branch last checked out
-git checkout -- [file-name.txt] 	Discard changes to a file
-git merge [branch name] 	Merge a branch into the active branch
-git merge [source branch] [target branch] 	Merge a branch into a target branch
-git stash 	Stash changes in a dirty working directory
-git stash clear 	Remove all stashed entries
+Reverting should be used when you want to apply the inverse of a commit from your project history. This can be useful, for example, if you’re tracking down a bug and find that it was introduced by a single commit. Instead of manually going in, fixing it, and committing a new snapshot, you can use git revert to automatically do all of this for you.
 
 
-Sharing & Updating Projects
+git-cherry-pick - Apply the changes introduced by some existing commits
 
+The git revert command can be considered an 'undo' type command, however, it is not a traditional undo operation. Instead of removing the commit from the project history, it figures out how to invert the changes introduced by the commit and appends a new commit with the resulting inverse content. This prevents Git from losing history, which is important for the integrity of your revision history and for reliable collaboration.
 
-git push origin [branch name] 	Push a branch to your remote repository
-git push -u origin [branch name] 	Push changes to remote repository (and remember the branch)
-git push 	Push changes to remote repository (remembered branch)
-git push origin --delete [branch name] 	Delete a remote branch
-git pull 	Update local repository to the newest commit
-git pull origin [branch name] 	Pull changes from remote repository
-git remote add origin ssh://git@github.com/[username]/[repository-name].git 	Add a remote repository
-git remote set-url origin ssh://git@github.com/[username]/[repository-name].git 	Set a repository's origin branch to SSH
+Reverting should be used when you want to apply the inverse of a commit from your project history. This can be useful, for example, if you’re tracking down a bug and find that it was introduced by a single commit. Instead of manually going in, fixing it, and committing a new snapshot, you can use git revert to automatically do all of this for you.
 
 
 
-Inspection & Comparison
+git-rebase - Reapply commits on top of another base tip
+
+
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow.
+From a content perspective, rebasing is changing the base of your branch from one commit to another making it appear as if you'd created your branch from a different commit. Internally, Git accomplishes this by creating new commits and applying them to the specified base. It's very important to understand that even though the branch looks the same, it's composed of entirely new commits.
 
 
 
-git log 	View changes
-git log --summary 	View changes (detailed)
-git log --oneline 	View changes (briefly)
-git diff [source branch] [target branch] 	Preview changes before merging
+
+
+
+
+
+
+
+
+
+Git Merge vs Rebase
+
+Git Merge
+
+If you merge two branches, it will create a new commit and combine master branch into the feature branch. Here, feature branch commits keep as it is and commit history does not change. 
+
+You can merge master branch into the feature branch by running following command
+
+$ git checkout feature
+$ git merge master
+
+or with single line
+
+$ git merge feature master
+
+
+
+
+Git Rebase
+
+Rebase is little different than merge. Rebase apply all feature branch changes on top of master branch by creating new commit for each of its previous commit messages. Which means that rebase command will change your commit history and regenerate commits again on top of master branch. 
+
+Following command can be used to rebase feature branch on top of master branch. "-i" option used for interactive rebase. Otherwise you can simply use "git rebase master".
+
+$ git checkout feature
+$ git rebase -i master
+
+
+Rebase or Merge
+
+You can use either rebase or merge to combine two branches. Peoples are tend to use rebase over merge due to following facts.
+
+    There is no additional commit added to the merged branches
+    Rebase commit history is cleaner than merge history since rebase history does not have complex branches
+    Due to the branch complexity in merged git tree, some code changes are invisible. But rebase changes come from a specific and entitled commit.
+    Rebase make easier to use git log, git bisect, and gitk commands.
+
+When to not to use Rebase
+
+As we already discussed, rebase change the commit history. Therefore, it should not be apply on the public branches(eg: master) where other people are working on. This make git confuse that your master branch diverge from others master branch.
+
 
 
