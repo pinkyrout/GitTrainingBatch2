@@ -8,9 +8,6 @@
 8. I am Anurag Sarang Ganjiwale
 9. I am currently pursing B.Tech Computer Science and Engineering at Walchand College of Engineering Sangli
 10. I am from Pusad Dist. Yavatmal
-11. I am Mayur Deshmukh
-12. I am currently pursing BE computer engineering from K.K Wagh of college of Engineering,Nashik
-13. Also I am an Intern at Josh Software Pvt Ltd.
 14. I am Sagar Sonwane
 15. I work as an intern at Josh Softwares Pvt. Ltd.
 16. I am Niharika Bhoi
@@ -18,4 +15,8 @@
 18. My hometown is Kolhapur
 
 
+=======
+>>>>>>> b0b5557c6b739397b7b8bd5ff254b3aa7c75a6cd
+>>>>>>> 0d0fd9e26a8f64b2785ab837b64b60f7d534cac0
 
+>>>>>>> 62a5756924223fd295bde73287be3972ca5a1716
