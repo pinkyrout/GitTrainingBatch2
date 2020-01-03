@@ -4,6 +4,9 @@
 
 
 
+
+
+
 1. I am Mayur Deshmukh
 2. I am currently pursing BE computer engineering from K.K Wagh of college of Engineering,Nashik
 3. Also I am an Intern at Josh Software Pvt Ltd.
@@ -16,12 +19,26 @@
 
 
 
+
+
+i. I am Sagar Sonwane.
+ii. I work as an Intern at Josh Softwares Pvt. Ltd.
+iii. I am from K.K Wagh Institute of Engineering Education and Research,Nashik.
+iv. I am From Nepanagar, Madhya Pradesh.
+v. My Wish is to do a World Tour With My parents.
+vi. I love watching and Playing Cricket.
+vii. I also Love Cooking.
+
+
+
 i. I am Sagar Sonwane
 ii. I work as an intern at Josh Softwares Pvt. Ltd.
 
 
 Deepali Pawade from pccoe
 Working as Intern in Josh 
+
+
 
 
 
@@ -41,4 +58,11 @@ Working as Intern in Josh
 
 
 
+<<<<<<< HEAD
+=======
+1. I am Anurag Sarang Ganjiwale
+2. I am currently pursing B.Tech Computer Science and Engineering at Walchand College of Engineering Sangli
+3. I am from Pusad Dist. Yavatmal
+
+>>>>>>> 4a5f4f851b3dc07b92d2c889216bbcc155d4e4f8
 
