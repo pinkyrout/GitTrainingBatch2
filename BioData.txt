@@ -1,10 +1,21 @@
 1. I am Pinky Rout.
 2. I work as a software developer at Josh Software Pvt Ltd.
 
+
+
 1. I am Mayur Deshmukh
 2. I am currently pursing BE computer engineering from K.K Wagh of college of Engineering,Nashik
 3. Also I am an Intern at Josh Software Pvt Ltd.
 
+<<<<<<< HEAD
 1. I am Latikesh Nikam
 2. I pursuing Btech from Walchand College of Engineering, Sangli
 3. Currently, I work as a intern in Josh Software Pvt Ltd.
+=======
+
+
+
+i. I am Sagar Sonwane
+ii. I work as an intern at Josh Softwares Pvt. Ltd.
+
+>>>>>>> 62a5756924223fd295bde73287be3972ca5a1716
