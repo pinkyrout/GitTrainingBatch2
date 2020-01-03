@@ -1,0 +1,67 @@
+Entities - 
+
+1. Customer_user - 
+
+	attributes - 1. userId (primary key)
+		     2. Fname 
+		     3. Lname
+		     4. emailid
+		     5. phone_no
+		     6. password
+		     7. pwd_reset_question
+		     8. pwd_reset_question_ans
+
+2. Booking 
+
+	attributes - 1. bookingid (primary key)
+		     2. userid
+   		     3. car_type
+		     4. start_date
+	             5. end_date
+		     6. pickup_time
+ 		     7. pickup_location
+		     8. carid
+
+3. Feedback
+
+	attributes - 1. userid (primary key)
+		     2. Fname 
+		     3. Lname
+	   	     4. emailid
+		     5. rating 
+		     6. comments
+	
+
+4. car 
+
+	attributes - 1. car_id (primary key)
+		     2. model_name
+		     3. registration_no
+		     4. seating_capacity
+		     5. car_type
+		     6. price_per_km
+		     7. status
+
+5. Payment
+
+	attributes - 1. payment_id (primary key)
+		     2. payment_type
+		     3. payment_status
+		     4. booking_id
+		     5. total_amt
+
+
+
+
+
+Relationships --
+
+customer_user and booking -  one to one relationship
+
+customer_user and feedback - one to one relationship
+
+booking and car - one to one relationship
+
+booking and payment - one to one relationship
+
+
