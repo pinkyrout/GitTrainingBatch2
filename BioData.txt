@@ -1,5 +1,11 @@
 1. I am Pinky Rout.
 2. I work as a software developer at Josh Software Pvt Ltd.
+<<<<<<< HEAD
+
+1. I am Mayur Deshmukh
+2. I am currently pursing BE computer engineering from K.K Wagh of college of Engineering,Nashik
+3. Also I am an Intern at Josh Software Pvt Ltd..
+=======
 
 
 
@@ -8,13 +14,22 @@
 3. Also I am an Intern at Josh Software Pvt Ltd
 4. I am currently working on git assignments
 
+>>>>>>> 26b73789261c4e6cd04a16923bf2a02da93b2a76
 
 
 1. I am Latikesh Nikam
 2. I pursuing Btech from Walchand College of Engineering, Sangli
 3. Currently, I work as a intern in Josh Software Pvt Ltd.
 
+1. I am Vishwajeetsingh Desurkar
+2. I have started  as Graduate trainee at Josh software Pvt. Ltd
 
+<<<<<<< HEAD
+1. I am Anurag Sarang Ganjiwale
+2. I am currently pursing B.Tech Computer Science and Engineering at Walchand College of Engineering Sangli
+3. I am from Pusad Dist. Yavatmal
+
+=======
 i. I am Sagar Sonwane.
 ii. I work as an Intern at Josh Softwares Pvt. Ltd.
 iii. I am from K.K Wagh Institute of Engineering Education and Research,Nashik.
@@ -39,6 +54,7 @@ vii. I also Love Cooking.
 2. I am currently pursing B.Tech Computer Science and Engineering at Walchand College of Engineering Sangli
 3. I am from Pusad Dist. Yavatmal
 
+>>>>>>> 26b73789261c4e6cd04a16923bf2a02da93b2a76
 
 1. I am Niharika Bhoi
 2. I am studying Electronics Engineering in Walchand College of Engineering Sangli 
