@@ -1,0 +1,43 @@
+University database schema:
+
+Entities:
+1. Department: 
+	attributes:
+		1. Dname (primary key)
+		2. Location
+		3. HOD
+
+2. Course:
+	attributes:
+		1. Course_code (primary key)
+		2. Course_name
+		3. Duration
+		4. pre_requisites
+
+3. Instructor:
+	attributes:
+		1. Instructor_id (primary key)
+		2. Instructor_name
+		3. Instructor_address
+		4. Instructor_email
+		5. Instructor_contact_no.
+		6. Date_of_joining
+		7. Years_of_experience
+
+4. Student:
+	attributes:
+		1. Student_id (primary key)
+		2. Student_name
+		3. Student_email
+		4. Student_address
+		5. Student_contact
+		6. Student_DOB
+		7. Class
+		8. Department
+
+Relationship:
+1. A Department offers many courses: 1 to M between Department and Course
+2. Many Courses enrolled by many Students: M to M between Course and Student
+3. A Department has many Instructors: 1 to M between Department and Instructor
+4. Many Courses taught by one instructor: M to 1 between Course and Instructor
+
