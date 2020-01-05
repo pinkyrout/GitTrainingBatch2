@@ -51,5 +51,9 @@ Table 6:Location_department
 	4.building_name
 	5.branch_name (city / state)
 
-	
+Relationships:
+	employee 1 to many leaves
+	manager 1 to many employee
+	team 1 to many employee
+	location 1 to many departments	
 
