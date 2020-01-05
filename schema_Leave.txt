@@ -1,0 +1,55 @@
+DB schema for Leave Management/tracking System
+
+* Every employee submits request for leave to his/her manager
+Table 1:Employee
+	1.employee_id (PK)
+	2.employee_name
+	3.department_id (FK)
+	4.employee_age
+	5.employee_no_of_leaves_left
+	6.manager_id (FK)
+	7.team_id (FK)
+
+* Manager can either approve/reject the leave 	
+Table 2:Manager
+	1.manager_id (PK)
+	2.manager_name
+	3.team_id (FK)	 
+	4.no_of_employee
+	5.manager_up_id (FK)
+
+* Information of the leaves and their status 
+Table 3:Leaves	
+	1.employee_id (FK)
+	2.start_date
+	3.end_date
+	4.manager_id (FK)
+	5.type_of_leave (casual / medical)
+	6.status (approved/ rejected / pending)
+
+* Department details
+Table 4:Department
+	1.department_id (PK)
+	2.department_name 
+	3.location_id (FK)
+	4.head_of_department
+
+* Every team is assigned a project and has manager 
+Table 5:Team
+	1.team_id (PK)
+	2.team_name 
+	3.working_project
+	4.manager_id
+	5.product_name
+	6.no_of_customers		 
+
+* Department Location deatails
+Table 6:Location_department
+	1.location_id (PK)
+	2.room_no
+	3.floor_no
+	4.building_name
+	5.branch_name (city / state)
+
+	
+
