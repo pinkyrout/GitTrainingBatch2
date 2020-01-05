@@ -1,0 +1,36 @@
+git commands
+
+
+
+1. git init
+	this command is used to intialise our repository. 
+2. git status
+	this command is used to know the status of all files created under a branch.
+	this tells is the file is still untracked or it has been added 
+3. git log
+	this command gives the info about all previous commits along with the name of the users and time of commit
+4. git branch
+	this is used to check on which branch we are
+5. git checkout
+	this is used to switch the branch
+
+
+
+
+vi commands
+1. vi filename
+	open file if already exist otherwise create the new one
+2. esc + :wq
+	save and exit file
+3. esc + :w
+	save file
+4. esc + x
+	erase a character
+5. esc + u
+	undo
+6. esc + dd
+	delete a line
+7. esc + :q!
+	exit without saving
+
+
