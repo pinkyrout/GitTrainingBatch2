@@ -1,0 +1,30 @@
+1. rvm install ruby_version
+	Use to install rubies of specific versions.
+2. rvm use ruby_version
+	Use to load ruby of mentioned version.
+3. rvm --default use ruby_version
+	Use to set default ruby version.
+4. rvm use default 
+	Use to load default ruby version.
+5. rvm uninstall ruby_version
+	Use to uninstall the specific ruby version.
+6. rvm gemset list
+	Use to enlist the gems available in that gemset.
+7. rvm gemset list_all
+	Use to list all named gemsets for all interpreters.
+8. rvm gemset create test_project
+	This will create the gemset of named test_project.
+9. rvm gemset delete test_project
+	This will delete the gemset of named test_project.
+10. rvm gemset use test_project
+	This allows to switch to gemset called test_project.
+11. Default and Global gemset
+	Default:To stop using custom gemset and make use of default gems.
+	Global:Gems you install to the @global gemset for a given ruby are available to all other gemsets you create in association with that ruby. 
+	
+12. gem install gem_name
+	Use to install specific gems.
+13. rvm list known
+	To list all known RVM installable rubies.
+14. rvm use 2.0.0@test_project
+	USe to switch to test_project gemset.
