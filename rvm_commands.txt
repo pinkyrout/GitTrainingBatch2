@@ -1,0 +1,20 @@
+1. rvm install version_of_ruby:-        
+	 This will install the specified version of ruby.
+2. rvm list:- 
+	This will list the ruby versions installed.
+3. rvm list known:                      
+	This will list of versions avalible
+4. rvm use version_of_ruby:            
+	This will change the current version of ruby to specified version.
+5. rvm gemset create gemset_name:       
+	This will create a gemset of the name given
+6. rvm gemset use gemset_name:          
+	This will switch to specified gemset
+7. rvm gemset install gem_name:         
+	This is to install given gem
+8. rvm gemset list:                     
+	This will list the gemsets in the current version of ruby.
+9. rvm gemset list_all: 
+	This will list the gemsets in the all versions of ruby.
+10. rvm default version:
+	This is to set the default version of ruby.
