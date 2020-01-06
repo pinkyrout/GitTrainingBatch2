@@ -1,0 +1,41 @@
+Ruby Commands Study
+
+ 
+ - rvm install ruby_version
+Installes mentioned ruby version on the device 
+
+- rvm use ruby_version
+It will use the ruby version mentioned of all available versions
+
+- rvm list known
+Specify all the available list of versions 
+
+- rvm --default use ruby_version
+Set specified version mentioned as default
+
+- rvm use default
+Works same as rvm --default use ruby_version 
+
+- rvm uninstall ruby_version
+To uninstall ruby version specified
+
+- rvm gemset list
+A gemset is just a container which we can use to keep gems separate from each other. Creating a gemset per project allows you to change gems (and gem versions) for one project without breaking all other projects.
+
+- rvm gemset list_all
+Gives list of all the gemset under all the versions available on your device.
+
+- rvm gemset create/delete test_project
+It is used to create or delete gemset created for particular project
+ 
+- rvm gemset use test_project
+Use the gemset of all available for use
+
+- Default && Global gemset
+The 'global' gemset is to allow you to share gems to all your gemsets. The word 'default' quite literally says it all, eg. the gemset used without selecting one for a specific installed ruby.
+
+- rvm use 2.0.0@test_project
+It is used to change both the Ruby version and gemset at one time. This is done giving the Ruby version, followed by the “@” character, and then specifying the gemset.
+
+- gem install gem_name
+To install specified gem name
