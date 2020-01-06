@@ -1,0 +1,40 @@
+1) rvm install <ruby_version>:
+	This command is use to setup enviroment of ruby with required version
+
+2) rvm use <ruby_version>:
+	This command is use to change our enviroment to given version
+
+3) rvm list known:
+	This command is use when we want to available version of ruby
+
+4) rvm --default use <ruby_version>:
+	This command is use to set given enviroment as a default one.
+
+5) rvm use default:
+	This is use to set enviroment to default
+
+6) rvm uninstall <ruby_version>:
+	This command is used when we want to uninstall given version of ruby
+
+7) rvm gemset list:
+	This command gives us available gemset present for current versions
+
+8) rvm gemset list_all:
+	This gives us available gemset present across all the versions
+
+9) rvm gemset create/delete <test_project>:
+	This command is use to create/delete gemset which will be able to resolve dependecies for perticular product
+
+10) rvm gemset use <test_project>:
+	This is used to setup gemset to resolve dependecies.
+
+11) Default and Global gemsets:
+	Defalut is a local gemset which is intialized when we install version where as all the things install in global gemset are access by all local gemsets
+
+12) rvm use <ruby_version> @<test_project>:
+	This command is to shift to given version and with given custom gemset
+
+13) gem install <gem_name>:
+	This command is used to install required gems i.e. packages into current gemset
+
+
