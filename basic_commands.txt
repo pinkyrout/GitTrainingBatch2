@@ -1,0 +1,25 @@
+Basic git commands
+1. git init
+2. git clone
+3. git branch branch_name
+4. git branch
+5. git status
+6. git log
+7. git add file_name
+7. git commit -m "messsage" 
+8. git checkout branch_name
+9. git remote add origin 
+10. git remote -v
+
+Basic Vi commands
+1. ESC :q (TO QUIT)
+2. ESC :wq (TO SAVE AND QUIT)
+3. ESC :w (TO WRITE)
+4. v to select
+5. y to copy the selected text
+6. x to cut the selected text
+7. p to paste the selected text
+8. x to delete a character
+9. u to undo 
+10. ctr r to redo
+11. i to insert or edit

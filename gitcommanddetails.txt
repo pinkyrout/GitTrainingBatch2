@@ -1,0 +1,6 @@
+Git command Details
+1. git reset: git reset is used to undo changes in your working directory that haven't been comitted yet.
+2. git revert: git revert is used to undo a previous commit.
+3. git cherry-pick: git cherry-pick is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD. Cherry picking is the act of picking a commit from a branch and applying it to another. git cherry-pick can be useful for undoing changes.
+4. git rebase: In Git, the rebase command integrates changes from one branch into another. It is an alternative to the better known "merge" command.
+5. difference between merge and rebase: Rebasing and merging are both designed to integrate changes from one branch into another branch but in different ways. When you do rebase a feature branch onto master, you move the base of the feature branch to master branch's ending point. Merging adds a new commit to your history.
