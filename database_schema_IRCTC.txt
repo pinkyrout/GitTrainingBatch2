@@ -1,0 +1,23 @@
+So I am tejas and i am writing details about IRCTC database schema.
+
+So may be we will need 4 tables, for primary stage having only one functionality of booking train ticket.
+The tables are listed below: 
+1. train_info
+2. station_info
+3. user_info
+4. booking_info
+
+now lets see the entities of these table:
+1. train_info: (train_id, name, start_station, end_staion, type, route)
+2. station_info: (station_id, name, platform_count, trains_that_stop)
+3. user_info: (user_id, age, sex, contact_number, email)
+4. booking_info: (booking_id, user_id, train_id, source_station_id, destination_station_id, arrial_time, departure_time, coach_number, seat_number, fare)
+
+For booking_info table we can simply put constrains on train_id, source_station_id, destination_station_id, coach_number, seat_number columes so we will be able to handle conflicts.
+
+now the relationships of the tables mustr be like:
+
+train_info and booking_info:         one to many ........... as each booking is w.r.t one train only and one train can contain many bookings.
+user-info and booking_info:          one to many ........... as user can have many bookings and one booking is w.r.t one user only.
+station_info and train_info:         many to many .......... as train can have multiple halts and also station can also have many trains stop there.
+station_info and booking_info:       many to many .......... as station can be part of many bookings at a time and two stations are invauled in booking.
