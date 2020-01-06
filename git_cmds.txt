@@ -1,0 +1,112 @@
+1. git reset - 
+
+Use this to return the entire working tree to the last committed state. This will discard commits in a private branch or throw away uncommitted changes
+
+2. git revert - 
+
+Rollback changes you have committed.
+
+Instead of removing the commit from the project history, it figures out how to invert the changes introduced by the commit and appends a new commit with the resulting inverse content
+
+3. git cherry pick
+
+Cherry picking is the act of picking a commit from a branch and applying it to another
+
+git cherry-pick can be useful for undoing changes. For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong.
+
+4. git rebase
+
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. 
+
+Rebasing is changing the base of your branch from one commit to another making it appear as if you'd created your branch from a different commit
+
+5. Merge vs Rebase
+
+
+Merge preserves history whereas rebase rewrite it.
+
+If the feature branch you are getting changes from is shared with other developers, rebasing is not recommended, because the rebasing process will create inconsistent repositories.
+
+
+Vi Commands --
+
+
+Useful Vi Commands
+
+Aug 18th, 2006 linux, programming, vi
+Moving the cursor
+
+    Ctrl-B - Previous Page
+    Ctrl-F - Next Page
+    B - Previous Word
+    W - Next Word
+    0 - move the cursor to the beginning of the current line
+    $ - move the cursor to the end of the current line
+    l - move the cursor one character to the right
+    h - move the cursor one character to the left
+    k - move the cursor up one row
+    j - move the cursor down one row
+    G - move the cursor to the bottom of the file
+    1G - move the cursor to the top of the file
+    H - move the cursor to the top row on the screen
+    M - move the cursor to the middle row on the screen
+    L - move the cursor to the last row on the screen
+
+Inserting text
+
+    i - insert text immediately before current cursor position
+    a - append text immediately after current cursor position
+    o - open line below current one for input
+    I - insert to beginning of current line
+    A - append text to end of current line
+    O - open line above current one for input
+
+Deleting text
+
+    D - delete to end of current line
+    dw - delete current word (starting from current cursor position)
+    dG - delete to bottom of file
+    d) - delete a sentence (sentences are delimited by TWO spaces)
+    d% - delete to the matching bracket, brace, or parenthesis
+    d” - delete to the last place we jumped from
+    dtp - delete through the letter p, but leaves the p
+    dfp - delete to and including the letter p
+
+Undo / Repeat
+
+    u - undo the last action
+    . - repeats the last command
+
+Saving
+
+    :w - write the file and save the changes
+    :w name - write the file and save the changes into a file with the new name
+    :x,y w name - write only the lines x to y to the file
+    :wq - write and quit
+
+Editing
+
+    J - join next line to current line
+    x - delete the character under the cursor
+    r* - replacs the character under the cursor with *
+    sstring ESC - substitute the character under the cursor with string
+    cwstring ESC - change current word to string
+    c$string ESC - change from cursor to end of line with string
+    ccstring ESC - change current line to string
+
+Cut & Paste
+
+    yy yank lines into a temporary buffer, where they are saved for later use
+    p paste the previously yanked lines
+    The yanked lines can be put as often as one likes, which is a good way to repeat things. Also, deleted lines can be put as well, so dd is the same as yy dd. Also, there is only one default buffer. To move two things, or to yank and put with other work in between, you can save to named buffers. For example “ayy will yank a line in buffer a. Then buffer a can be pasted using “ap.
+
+Pasting from a file
+
+    :r name - read in the file name at the point of the cursor
+    :r!cmd - execute the shell command cmd and inserts output at the point of the cursor
+
+
+
+
+
+
