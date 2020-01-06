@@ -1,0 +1,11 @@
+Basic rvm commands:
+1. rvm list:                            it gives the the list of ruby versions installs.
+2. rvm list known:                      it gives the total list of versions avalible that can be installed.
+3. rvm install version_of_ruby:         it install the mensioned version of ruby.
+4. rvm use version_of_ruby:             it will change the environment in that version.
+5. rvm gemset create gemset_name:       it will create a gemset of same name.
+6. rvm gemset list:                     it lists the gemsets in that version of ruby.
+7. rvm gemset list_all:                 it will list all the gemsets of all the versions together.
+8. rvm gemset use gemset_name:          it will use the mensioned gemset.
+9. rvm gemset install gem_name:         it will install the gem.
+10. rvm default version:                it will set the version to default.
