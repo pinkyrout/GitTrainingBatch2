@@ -1,0 +1,89 @@
+Manage Patients
+This table will be used for storing and managing the patient information.
+
+Manage Doctor
+This table will be used for storing and managing the Doctor information and login account.
+
+Manage Laboratory
+This table will be used for storing and managing the Laboratory transaction.
+
+Manage Inpatient
+This table will be used for storing and managing the inpatient information and diagnosis.
+
+Manage Outpatient
+This table will be used for storing and managing the inpatient information and diagnosis.
+
+Manage Room
+This table will be used for storing and managing the room information and assigning of patient in every room.
+
+Manage Bills
+The billing table will be used for managing the statement of accounts per patient and for the collection of bills.
+
+Table 1: Patient
+
+Field Name	
+patient_id (PK)	
+name	
+age	               
+gender	Patient 
+address	Patient 
+disease	Patient 
+doctor_id (FK)
+
+2: Doctor
+
+	
+doctor_id (PK)	
+name	   
+age	
+gender	
+address	
+
+
+Table 3: Lab
+
+	
+lab_no (PK)	
+patient_id (FK)	             
+doctor_id (FK)	             
+date	            
+amount
+
+
+Table 4: Inpatient
+
+
+patient_id (PK)	
+room_no (FK)	
+date_of_adm	
+date_of_dis	
+lab_no (FK)
+
+
+Table 5: Outpatient
+
+
+patient_id (PK)	
+date	
+lab_no (FK)
+
+
+Table 6: Room
+
+
+room_no (PK)	
+room_type
+status	
+
+
+Table 7: Bill
+
+
+bill_no (PK)	
+patient_id (FK)	
+doctor_charge	               
+room_charge	
+no_of_days	
+lab_charge	
+bill	
+	
