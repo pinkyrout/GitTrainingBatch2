@@ -1,0 +1,18 @@
+rvm commands:
+	rvm install ruby_version			-	installs the desired version of ruby
+	rvm use ruby_version				-	changes the current using version of ruby
+	rvm list known					-	shows versions of ruby for respective interpreter
+	rvm --default use ruby_version			-	changes the default using version of ruby
+	rvm use default					-	changes the current using ruby version to default
+	rvm uninstall ruby_version			- 	uninstalls the specified version of ruby
+	rvm gemset list					-	shows the list of gemsets for particular version of ruby
+	rvm gemset list_all				-	shows the list of all gemsets for all versions of ruby
+	rvm gemset create/delete test_project		-	creates a new gemset by the specifies name where we can store the gems
+	rvm gemset use test_project			-	changes the current gemset to the specified one
+	rvm use 2.0.0@test_project			-	changes the current version of ruby to 2.0 and the gemset from default to test_project
+
+Default && Global gemset
+	The default gemset for every ruby version. When we do not specify the gemset default is used. Global gemset is the gemset in which the common gems are found which are already present in all other gemsets.
+
+gem commands:
+	gem install gem_name				-	install the specified gem in the current gemset
