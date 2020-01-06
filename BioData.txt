@@ -1,7 +1,13 @@
 1. I am Pinky Rout.
 2. I work as a software developer at Josh Software Pvt Ltd.
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. I am Vishwajeetsingh Desurkar
 4. I have started  as Graduate trainee at Josh software Pvt. Ltd
 =======
 >>>>>>> b40a7a3... [master]
+=======
+i. I am Sagar Sonwane
+ii. I work as an intern at Josh Softwares Pvt. Ltd.
+
+>>>>>>> 33d8787... Edit from sagar sonwane
