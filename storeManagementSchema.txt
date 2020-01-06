@@ -1,0 +1,41 @@
+//Basic Data Warehouse schema for shopping mall management system
+
+
+Table1: Product
+Attributes:
+	ProductKey(PrimaryKey)
+	productName
+	productCost
+
+Table2: Customer
+Attributes:
+	customerID(PrimaryKey)
+	customerName
+	gender
+
+Table3: Store
+Attributes:
+	storeID(PrimaryKey)
+	storeName
+	storeLocation
+	storeCity
+	storeState
+	storeCountry
+
+Table4: SalesPerson
+Attributes:
+	salesPersonID(PrimaryKey)
+	salesPersonName
+	spstoreID
+
+Table5: ProductSales
+Attributes:
+	tansactionID(PrimaryKey)
+	SalesInvoiceNo
+	FstoreID(ForeignKey)
+	FcustomerID(ForeignKey pointing to Customer Table)
+	FproductID(ForeignKey pointing to Product Table)
+	FsalesPerson(ForeignKey pointing to SalesPerson Table)
+	quantity
+	totalAmount
+
