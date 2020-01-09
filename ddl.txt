@@ -1,0 +1,65 @@
+
+CREATE TABLE Customer
+(
+   customerID INT 
+   Fname VARCHAR(45),
+   Lname VARCHAR(45) ,
+   Phoneno INT,
+   Username VARCHAR(45) ,
+   Password VARCHAR(45),
+   Address VARCHAR(45),
+   FoodID INT,
+   PaymentID INT,
+   RestaurentID INT,
+   PRIMARY KEY (customerID),
+   FOREIGN KEY (FoodID) REFERENCES Restaurent (RestaurentID)
+   FOREIGN KEY (PaymentID) REFERENCES Payment (PaymentID)
+   FOREIGN KEY (FoodID) REFERENCES FoodItem (FoodID))
+
+
+CREATE TABLE Restaurent
+   (RestaurentID INT,
+    Address VARCHAR(45),
+    MenuID INT NULL,
+    PRIMARY KEY (RestaurentID))
+
+
+CREATE TABLE FoodItem
+ (
+   FoodID INT,
+   MenuID INT,
+   Name of Dish VARCHAR(45),
+   Price INT ,
+   Quantity INT ,
+   PRIMARY KEY (FoodID),
+   FOREIGN KEY (RestaurentID) REFERENCES Restaurent(RestaurentID))
+
+                                              
+
+
+CREATE TABLE Order
+(
+   OrderID INT,
+   customerID INT ,
+   FoodID INT,
+   Quantity INT,
+   PaymentStatus VARCHAR(45) ,
+   OrderStatus VARCHAR(45) ,
+   PRIMARY KEY (OrderID),
+   FOREIGN KEY (customerID) REFERENCES Customer (customerID)
+   FOREIGN KEY (FoodID) REFERENCES FoodItem (FoodID))
+
+
+CREATE TABLE Payment
+ (
+   PaymentID INT ,
+   PaymentMethod VARCHAR(45),
+   Date DATE ,
+   Amount INT,
+   Time INT ,
+   OrderID INT ,
+   PRIMARY KEY (PaymentID),
+   FOREIGN KEY (OrderID) REFERENCES Order (OrderID))
+
+
+

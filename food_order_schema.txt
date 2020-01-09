@@ -1,0 +1,47 @@
+This is the database schema for Food ordering system.
+
+1. customer
+	customerId (Primary Key)
+	Fname
+	Lname
+	Phoneno
+	Username
+	Password
+	Address
+	Food ID
+	Payment ID
+
+2. Restaurent
+	Restaurent ID  (Primary Key)
+	Address
+	Menu ID
+
+3. Menu
+	Menu Id  (Primary Key)
+	Food ID
+
+4. FoodItem
+	Food Id  (Primary Key)
+	customer ID
+	Name of dish
+	Price
+	Quantity
+
+5.Payment
+	PaymentID (Primary Key)
+	CutomerID
+	Food ID
+	Amount
+	Payment Method
+	Date
+	Time
+
+
+
+Relationships:-
+Customer to payment  =>  one to many type .....one customer can make many payments
+Customer to FoodItem =>  one to many type .....one customer can order any food items
+FoodItem to Menu     =>  one to one type  .....food item will come from a single menu
+Menu to Restaurent   =>  one to one type  .....one restuarent have only one menu
+
+
