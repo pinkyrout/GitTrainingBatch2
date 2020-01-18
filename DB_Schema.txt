@@ -1,0 +1,57 @@
+this is database schema for bus booking system
+
+List of Entities :
+
+1.Buses
+	Attributes:
+		1.Bus_id
+		2.Bus_name
+		3.Bus_number
+		4.Bus_seat_number
+		5.Bus_ticket	
+		6.Bus_type
+		7.Bus_description
+2.Booking
+	Attributes:
+		1.Booking_id
+		2.Booking_title
+		3.Booking_type
+		4.Booking_ticket
+		5.Booking_date
+		6.Booking_description
+
+3.Passenger
+	Attributes:
+		1.Customer_id
+		2.Customer_name
+		3.Customer_mobile
+		4.Customer_email
+		5.Customer_username
+		6.Customer_password
+		7.Customer_address
+
+4.Bus Route
+	Attributes:
+		1.Bus_route_id
+		2.Bus_route_name
+		3.Bus_route_type
+		4.Bus_route_description
+
+5.Ticket Booking
+	Attributes:
+		1.Ticket_booking_id
+		2.Ticket_booking_type
+		3.Ticket_booking_date
+		4.Ticket_booking_description
+
+6.Seat
+	Attributes:
+		1.Seat_id
+		2.Seat_bus_id
+		3.Seat_customer_id
+		4.Seat_number
+		5.Seat_type
+		6.Seat_description
+
+
+
