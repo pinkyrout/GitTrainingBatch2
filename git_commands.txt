@@ -1,0 +1,42 @@
+1.git reset:-  (git reset HEAD~)
+
+	This command is used to undo last commit.
+
+	There are 3 parts 
+	i)working directory-> the working area where we modify the files.
+	ii)index
+	iii)head-> head is a pointer that updates with new commits.
+
+
+	1]Hard reset
+		Head points to previous commit.
+		Index content will get changed with content to which head is pointing.
+		Data in working directory gets erased. 
+
+	
+	2]Soft reset
+		It will just move the head position i.e. undo the last commit.
+
+
+
+2.git revert:-  (git revert --no-commit HEAD~)
+
+	revert and reset both are used to unto the last commit.
+	revert is used when the change has been commited remotely.
+	reset is used when the change has been commited only localy.
+
+3. git cherry-pick:-  (git chery-pick commit_ID)
+	This command is used when we have commited on a branch but later we want that commit on other branch.
+
+4.git rebase:-  (git rebase master)
+	It will add the latest commit of master branch to the current branch.
+
+
+5.Difference between merge and rebase:-
+
+	The git merge will merge all the commits of childbranch with the master branch, but when we use rebase then it will merge only the 
+	latest commit on childbranch with the master.
+
+	When you are on master you can use, git merge --squash childbranch which is similar to git rebase childbranch.
+
+
