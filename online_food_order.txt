@@ -1,0 +1,42 @@
+DataBase Schema for Online Food Ordering.
+Table 1:Order
+	1.OrderId (PK)
+	2.DateOrdered
+	3.DateFulfilled
+	4.TaxFederal
+	5.TaxState
+	6.TaxLocal
+	7.ShipToContactID (FK)
+	8.BillToContactID (FK)
+Table 2: OrderItem
+	1.OrderId (PK)(FK)
+	2.ItemNumber (PK)(FK)
+	3.NUmberOrdered
+Table 3:Item
+	1.ItemNumber(PK)
+	2.ItemName
+	3.ItemPrice
+Table 4:ContactInformation
+	1.ContactId (PK)
+	2.Name
+	3.Street
+	4.City
+	5.State
+	6.Country
+	7.ZipCode
+	8.Phone
+Table 5:OrderPayment
+	1.OrderId (PK)(FK)
+	2.PaymentType (PK)(FK)
+	3.Amount
+Table 6:PaymentType
+	1.PaymentType (PK)
+	2.Description
+
+Relationships:
+	Orderitem one to many Order
+	Order one to one ContactInformation
+	OrderPayment one to one Order
+	OrderItem one to one Items
+	OrderPayment one to one PaymentType.
+
