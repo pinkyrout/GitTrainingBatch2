@@ -1,0 +1,16 @@
+git:
+
+1. git Init : tell that this is now a git repositary and we can use the tools now.
+2. git status : tell us about the untracked files.
+3. git add : it tells to add the changes in the next commit.
+4. git commit : it commits the changes made in local repo.
+
+vi:
+
+1. i : insert the data.
+2. v : select the data.
+3. y : copy the data.
+4. yy : copy full line.
+5. p : paste the data.
+6. :wq : save and exit.
+7. :q : exit.
