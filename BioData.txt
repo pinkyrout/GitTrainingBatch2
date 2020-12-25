@@ -1,4 +1,4 @@
-1. I am Pinky Rout.
+0. I am Pinky Rout.
 2. I work as a software developer at Josh Software Pvt Ltd.
 
 1. I am Mayur Deshmukh
@@ -37,6 +37,10 @@
 2. I am pursuing my B.Tech Degree from Walchand College of Engineering, Sangli.
 3. I am currently working as an Intern at Josh Softwares Pvt. Ltd.
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> eb9af330989d02ba53613c74d1b2d48aba47940e
 1. Deepali Pawade from pccoe
 2. Working as Intern in Josh soft. pvt. Ltd
 
@@ -45,6 +49,4 @@
 3. Currently, an Intern at Josh Software Pvt. Ltd.
 
 1. I am Niharika Bhoi
-2. I am studying Electronics Engineering in Walchand College of Engineering Sangli 
-3. My hometown is Kolhapur
-
+2. I am studying Electronics Engineering in Walchand College of Engineering Sangli
