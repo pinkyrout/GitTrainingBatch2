@@ -1,0 +1,19 @@
+1. git reset
+The git reset command is a complex and versatile tool for undoing changes.
+These forms correspond to command line arguments --soft, --mixed, --hard
+
+2. git revert
+undo but Instead of removing the commit from the project history, it figures out how to invert the changes introduced by the commit and appends a new commit with the resulting inverse content. 
+
+
+3. git rebase
+ task is to forward-port a series of changes a developer has in his private repository, created against version X of some upstream branch, to version Y of that same branch (Y > X). This effectively changes the base of that series of commits, hence "rebasing".
+
+4. git cherry-pick
+ is for bringing an interesting commit from one line of development to another. A classic example is backporting a security fix made on an unstable development branch to a stable (maintenance) branch, where a merge makes no sense, as it would bring a whole lot of unwanted changes.
+
+5. Difference between merge and rebase 
+  1. There is no additional commit added to the merged branches
+  2. Rebase commit history is cleaner than merge history since rebase history does not have complex branches
+  3. De to the branch complexity in merged git tree, some code changes are invisible. But rebase changes come from a specific and entitled commit.
+  4. Rebase make easier to use git log, git bisect, and gitk commands
