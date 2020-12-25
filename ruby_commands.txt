@@ -1,0 +1,27 @@
+    - rvm list --> To list all installed rubies
+
+    - rvm list known -->To list all *known* RVM installable Rubies
+
+    - rvm install ruby_version --> To install Specified Version of ruby
+
+    - rvm use ruby_version --> To install Specified ruby version
+
+    - rvm --default use ruby_version --> To Set Particular Version of Ruby as Default
+
+    - rvm use default  --> To use default version of ruby
+
+    - rvm uninstall ruby_version --> To uninstall particular version of ruby
+
+    - rvm gemset list --> gemsets for current ruby version
+
+    - rvm gemset list_all --> gemsets for all ruby versions
+
+    - rvm gemset create/delete test_project --> To Create/Delete gemset for particular ruby version
+
+    - rvm gemset use test_project --> To use particular gemset for current ruby version
+
+    - Default gemset --> it is just the gemset when you do not specify a gemset name
+
+    - Global gemset --> Gems you install to the Global gemset for a given ruby are available to all other gemsets you create in association with that ruby.
+
+    - gem install gem_name --> Install gem in a particular gemset
