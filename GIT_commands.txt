@@ -1,0 +1,30 @@
+Given one or more existing commits, apply the change each one introduces, recording a new commit for each. This requires your working tree to be clean (no modifications from the HEAD commit).
+
+When it is not obvious how to apply a change, the following happens:
+
+    The current branch and HEAD pointer stay at the last commit successfully made.
+
+    The CHERRY_PICK_HEAD ref is set to point at the commit that introduced the change that is difficult to apply.
+
+    Paths in which the change applied cleanly are updated both in the index file and in your working tree.
+
+    For conflicting paths, the index file records up to three versions, as described in the "TRUE MERGE" section of git-merge[1]. The working tree files will include a description of the conflict bracketed by the usual conflict markers <<<<<<< and >>>>>>>.
+
+    No other modifications are made.
+
+git rebase:
+If <branch> is specified, git rebase will perform an automatic git switch <branch> before doing anything else. Otherwise it remains on the current branch.
+
+Difference between merge and rebase:
+Both git merge and git rebase are used to merge branches. There is one difference between them. The difference lies in the commit history after you integrate one branch into another.
+
+Suppose developer A made a commit and developer B made another commit.
+
+git merge:
+
+After merging, commits from both the developers will be there in git log. This is really good for beginners cause the head can be rolled back to commit from either developer A or developer B.
+
+git rebase:
+
+After rebasing, commit from only one developer will be stamped in git log. Advanced developers prefer this cause it makes the commit history linear and clean
+
